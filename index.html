@@ -290,7 +290,7 @@
   <script>
     // mouseenter a li, this li change to higth ligth
     $(function () {
-      $('.thumbnail li').mouseenter(function () {
+      $('.thumbnail li').click(function () {
         $(this).stop().fadeTo(1, 1).siblings().stop().fadeTo(200, 0.5)
       })
     })
